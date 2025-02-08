@@ -1,10 +1,18 @@
 import React from 'react';
 import styles from './App.css'; 
-import { ComponentA } from './features/componentA/componentA'
+import { Navbar } from './features/navbar/Navbar'
+import { Posts } from './features/posts/posts';
+import { Subreddit } from './features/subreddits/subreddits';
 
 function App() {
 	return (
-		<ComponentA/>
+		<main>
+			<Navbar/>
+			<section>
+				<Posts/>
+				<Subreddit/>
+			</section>
+		</main>
 	);
 }
 

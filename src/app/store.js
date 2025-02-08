@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import sliceNameReducer from '../features/componentA/componentASlice';
+import searchSlice from '../features/navbar/NavbarSlice';
 
-export const store = configure({
+export const store = configureStore({
 	reducer: {
-		sliceName: sliceNameReducer
+		search: searchSlice
 	},
 });
