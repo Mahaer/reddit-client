@@ -1,3 +1,92 @@
+:root{
+	--accent-1:rgb(200, 200, 200);
+	--accent-2:rgb(150, 0, 0);
+	--accent-2-highlight:rgb(225, 0, 0);
+	--accent-background:rgb(35, 35, 35);
+    --accent-background-highlight:rgb(65, 65, 65)
+}
 .post{
-    border: 1px solid green;
+    display: flex;
+}
+.votes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    width: 115px;
+}
+.votes button{
+    width: fit-content;
+    font-size: 70px;
+    background-color: transparent;
+    border: none;
+    height: 80px;
+    margin:-5px 0px;
+    color: white;
+    padding: 0px 6px;
+    border-radius: 20px;
+}
+.votes button:hover{
+    background-color: var(--accent-background-highlight);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.votes h2{
+    font-size: 28px;
+    font-weight:600;
+    color: white;
+}
+.message div{
+    background-color: var(--accent-1);
+    height:140px;
+    border-radius: 25px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.message div p{
+    font-size: 30px;
+    font-weight: 600;
+}
+.extra{
+    display: flex;
+    padding: 8px 5px;
+}
+.extra div p{
+    color: var(--accent-1);
+    font-size: 18px;
+}
+.comments button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 20px;
+}
+.comments button:hover{
+    background-color: var(--accent-background-highlight);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.postinfo{
+    flex-grow: 1;
+}
+.comments{
+    width: 50%
+}
+.comments button p:first-child{
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+.posttime{
+    width: 50%;
+}
+.posttime p{
+    margin: 4px 6px;
+}
+.imagecontainer{
+    width: 50px;
+    margin: 4px 6px;
 }
