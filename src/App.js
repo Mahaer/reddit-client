@@ -1,16 +1,16 @@
 import React from 'react';
 import styles from './App.css'; 
 import { Navbar } from './features/navbar/Navbar'
-import { Posts } from './features/posts/posts';
-import { Subreddit } from './features/subreddits/subreddits';
+import { Posts } from './features/posts/Posts';
+import { Subreddits } from './features/subreddits/Subreddits';
 
 function App() {
 	return (
 		<main>
 			<Navbar/>
-			<section>
+			<section className={styles.section}>
 				<Posts/>
-				<Subreddit/>
+				<Subreddits/>
 			</section>
 		</main>
 	);

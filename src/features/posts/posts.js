@@ -1,5 +1,6 @@
 import React from "react";
+import styles from './Posts.module.css'
 
 export function Posts(){
-    return <div style={{border:'1px solid blue', height:'200px'}}></div>
+    return <div className={styles.posts_section}></div>
 }

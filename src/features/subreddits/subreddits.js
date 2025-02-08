@@ -1,5 +1,6 @@
 import React from "react";
+import styles from './Subreddits.module.css'
 
-export function Subreddit(){
-    return <div style={{border:'1px solid red', height:'200px'}}></div>
+export function Subreddits(){
+    return <div className={styles.subreddits_section}></div>
 }
