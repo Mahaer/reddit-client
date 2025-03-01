@@ -123,6 +123,9 @@
     .message div p{
         font-size: 20px;
     }
+    .message div img{
+        width: 350px;
+    }
     .votes h2{
         font-size: 20px;
     }
@@ -137,5 +140,8 @@
     }
     .posttime{
         visibility: hidden;
+    }
+    .message div img{
+        width: 200px;
     }
 }

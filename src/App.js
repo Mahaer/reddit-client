@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './App.css'; 
 import { Navbar } from './features/navbar/Navbar'
 import { Posts } from './features/navbar/Posts';
-import { Subreddits } from './features/subreddits/Subreddits';
 
 function App() {
 	return (
@@ -10,7 +9,6 @@ function App() {
 			<Navbar/>
 			<section className={styles.section}>
 				<Posts/>
-				<Subreddits/>
 			</section>
 		</main>
 	);
