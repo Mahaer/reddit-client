@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './App.css'; 
 import { Navbar } from './features/navbar/Navbar'
-import { Posts } from './features/posts/Posts';
+import { Posts } from './features/navbar/Posts';
 import { Subreddits } from './features/subreddits/Subreddits';
 
 function App() {

@@ -1,0 +1,93 @@
+.comment{
+    margin-left: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.logo, .fallBackLogo{
+    width: 50px;
+    background-color: var(--accent-1);
+    height: 50px;
+    border-radius: 75px;
+}
+.user p{
+    font-size: 20px;
+    color: var(--accent-1);
+    margin-left: 10px;
+}
+.user p:last-child{
+    margin-left: 50px;
+}
+.commentMessage{
+    background-color: var(--accent-1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    min-width: 300px;
+    border-radius: 15px;
+    padding: 8px 12px;
+    height: fit-content;
+    min-height: 50px;
+    max-width: 650px;
+}
+.widgets{
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    align-items: center;
+}
+.widgets div:first-child{
+    display: inline-flex;
+    align-items: center;
+}
+.widgets div:last-child button{
+    display: inline-flex;
+    margin-left: 20px;
+    background-color: var(--accent-1);
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.widgets div:last-child button:hover{
+    cursor: pointer;
+    background-color: var(--accent-1-highlight);
+}
+.widgets div:last-child button p:last-child{
+    font-size: 15px;
+}
+.widgets div:last-child button p:first-child{
+    font-size: 25px;
+}
+.widgets div:first-child button{
+    background-color: var(--accent-1);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 35px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.widgets div:first-child button:hover{
+    cursor: pointer;
+    background-color: var(--accent-1-highlight);
+    transition: 0.2s;
+}
+.widgets div:first-child p{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--accent-1);
+    font-size: 15px;
+}
+.highlighted{
+    background-color: var(--accent-1-highlight) !important;
+    color: black !important;
+}

@@ -54,6 +54,7 @@ input{
 .searchicon svg:hover{
 	color: var(--accent-2-highlight);
 	transition: 0.2s;
+	cursor: pointer;
 }
 @media screen and (min-width: 1300px) {
 	header{
